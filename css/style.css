@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'donk';
+    src: url(/Donsky.ttf);
+}
+
+/* Global */
+* {
+   padding: 0px;
+   margin: 0px;
+}
+
+/* Menu */
+nav {
+    background-color: rgba(255, 255, 255, 0.986);
+  
+
+}
+
+nav a {
+    text-decoration: none;
+    color: purple;
+    
+    }
+
+nav#menu li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 30px;
+    margin: 50px 10px;
+    color: white;
+    
+}
+
+
+/* main, body */
+
+body {
+    background-color: rgba(255, 255, 255, 0.986);
+    max-width: 1920px;
+    min-width: 568px;
+}
+
+main h1{
+    font-family: 'donk';
+    font-weight: lighter;
+    font-size: 70px;
+    margin: 80px 100px;
+   
+}
+
+main p{
+    font-family: 'donk';
+    font-size: 23px;
+    margin: 90px 100px;
+    color: rgba(128, 128, 128, 0.644);
+}
+
+h1#cornome{
+    color: hsla(271, 78%, 65%, 0.847);
+    padding: 10px;
+    margin: -110px 90px;
+}
+
+main img {
+   width: 320px; 
+   border-radius: 100px 200px 150px;
+   margin: -250px 1100px;
+   position: absolute;
+}
+
+main img:hover{
+    width: 350px;
+    transition: 1s;
+    
+}
+
+/* Botão */
+
+div#butao1{
+    padding: 15px;
+    background-color: hsla(271, 78%, 65%, 0.847);
+    width: 120px;
+    text-align: center;
+    margin: -70px 100px;
+    border-radius: 30px;
+    font-family: 'donk';
+    box-shadow: 2px 3px 3px hsla(271, 98%, 50%, 0.842);
+
+}
+
+div#butao2 {
+    padding: 15px;
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    margin:  20px 270px;
+    border-radius: 30px;
+    font-family: 'donk';
+    box-shadow: 3px 3px 2px inset hsla(271, 78%, 65%, 0.847);
+    color: hsla(271, 78%, 65%, 0.847);
+}
+
+div#butao1:hover{
+    background-color: white;
+    color:  hsla(271, 78%, 65%, 0.847);
+    transition: 1s;
+    box-shadow: 3px 3px 2px inset hsla(271, 78%, 65%, 0.847);
+}
+
+div#butao2:hover{
+    background-color: hsla(271, 78%, 65%, 0.847);
+    color:  hsla(0, 0%, 0%, 0.842);
+    transition: 1s;
+    box-shadow: 2px 3px 3px hsla(271, 98%, 50%, 0.842);
+}
+
+div#butao3 {
+    padding: 15px;
+    background-color: hsla(271, 78%, 65%, 0.847);
+    width: 120px;
+    text-align: center;
+    margin: -840px 1200px;
+    border-radius: 30px;
+    font-family: 'donk';
+    box-shadow: 2px 3px 3px hsla(271, 98%, 50%, 0.842);
+
+}
+
+div#butao3:hover {
+    background-color: white;
+    color:  hsla(271, 78%, 65%, 0.847);
+    transition: 1s;
+    box-shadow: 3px 3px 2px inset hsla(271, 78%, 65%, 0.847);
+
+}
+
+
