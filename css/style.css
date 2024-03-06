@@ -120,7 +120,7 @@ div#butao3 {
     background-color: hsla(271, 78%, 65%, 0.847);
     width: 120px;
     text-align: center;
-    margin: -840px 1200px;
+    margin: -1020px 1200px;
     border-radius: 30px;
     font-family: 'donk';
     box-shadow: 2px 3px 3px hsla(271, 98%, 50%, 0.842);
@@ -133,6 +133,43 @@ div#butao3:hover {
     transition: 1s;
     box-shadow: 3px 3px 2px inset hsla(271, 78%, 65%, 0.847);
 
+}
+
+h1#eu{
+    text-align: center;
+    margin-top: 250px;
+}
+
+
+p#eu {
+    margin-top: -70px;
+    text-align: center;
+}
+
+div h1 {
+    font-family: 'donk';
+    text-align: center;
+    font-size: 70px;
+}
+
+div img {
+    width: 900px; 
+    
+}
+
+div#html {
+    position: absolute;
+    margin: -80px 260px;
+}
+
+div#css {
+    position: absolute;
+    margin: -80px 500px;
+}
+
+div#js {
+    position: absolute;
+    margin: -80px 740px;
 }
 
 
