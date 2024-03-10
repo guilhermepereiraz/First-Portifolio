@@ -15,28 +15,34 @@ nav {
     background-color: #0a0416;
     box-shadow: 3px 3px 5px black;
     font-family: 'donk';
-
-
+    max-width: 1920px;
+    
 
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    margin: 0px -280px 0px 300px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 280px;
     }
+
 
 nav#menu li {
     display: inline-block;
-    
     font-size: 30px;
-    margin: 50px 10px;
+    padding: 60px;
+    margin: 10px 10px;
     color: white;
     
 }
 
 nav#menu a:hover{
-    background-color: white;
+    color: rgb(177, 176, 176);
+    transform:scale(1.2);
+    transition: 0.3s;
+
 }
 
 
@@ -44,7 +50,7 @@ nav#menu a:hover{
 
 body {
     background-color: rgb(255, 255, 255);
-    
+    position: relative;
 }
 
 main h1{
@@ -134,31 +140,10 @@ div#butao2:hover{
     box-shadow: 2px 3px 3px hsla(271, 98%, 50%, 0.842);
 }
 
-div#butao3 {
-    padding: 15px;
-    background-color: hsla(271, 78%, 65%, 0.847);
-    width: 120px;
-    text-align: center;
-    position: absolute;
-    margin: -1050px 1450px;
-    border-radius: 30px;
-    font-family: 'donk';
-    box-shadow: 2px 3px 3px hsla(271, 98%, 50%, 0.842);
-
-}
-
-div#butao3:hover {
-    background-color: white;
-    color:  hsla(271, 78%, 65%, 0.847);
-    transform:scale(0.95);
-    transition: 0.4s;
-    box-shadow: 3px 3px 2px inset hsla(271, 78%, 65%, 0.847);
-
-}
-
 h1#eu{
     text-align: center;
-    margin-top: -100px;
+    margin-top: -70px;
+    padding-bottom: 10px;
 }
 
 
@@ -167,53 +152,117 @@ p#eu {
     text-align: center;
 }
 
-div h1 {
-    font-family: 'donk';
-    text-align: center;
-    font-size: 70px;
-}
+/* Imagens */
 
-div img {
-    width: 900px; 
-    
-}
-
-div#html {
+img#iconrd {
+    width: 30px;
+    background:  hsla(271, 78%, 65%, 0.847);
     position: absolute;
-    margin: -80px 260px;
+    border-radius: 20px;
+    margin-top: -700px;
+    margin-left: 30px;
+    border: 1px solid rgb(134, 113, 113);
 }
 
-div#css {
+img#iconrd:hover {
+background-color: #0066C8; 
+transition: 0.2s;
+transform:scale(1.2);
+
+
+}
+
+
+img#iconrd2 {
+    width: 30px;
+    background:  hsla(271, 78%, 65%, 0.847);
     position: absolute;
-    margin: -80px 500px;
+    border-radius: 20px;
+    margin-top: -650px;
+    margin-left: 30px;
+    border: 1px solid rgb(134, 113, 113);
 }
 
-div#js {
+img#iconrd2:hover {
+    background-color: white; 
+    transition: 0.2s;
+    transform:scale(1.2);
+
+}
+
+img#iconrd3 {
+    width: 30px;
+    background:  hsla(271, 78%, 65%, 0.847);
     position: absolute;
-    margin: -80px 740px;
+    border-radius: 20px;
+    margin-top: -600px;
+    margin-left: 30px;
+    border: 1px solid rgb(134, 113, 113);
 }
 
+img#iconrd3:hover {
+    background-color: white; 
+    transition: 0.2s;
+    transform:scale(1.2);
+
+}
+
+img#iconrd4 {
+    width: 35px;
+    position: absolute;
+    border-radius: 50px;
+    margin-top: -1090px;
+    margin-left: 1800px;
+    border: 2px solid rgb(253, 253, 253);
+}
+
+img#iconrd4:hover {
+    background-color: white; 
+    transition: 0.2s;
+    transform:scale(1.2);
+
+}
 
 /* Rodape */
 
 footer {
     background-color: #0a0416;
-    padding: 30px;
+    padding: 50px;
     font-family: 'donk';
+   
 }
 
-footer#rodape li {
-    display: inline;
-    margin: 0px -800px 0px 850px;
-    padding: 10px;
+footer#rodape ul {
+    margin: 0px -800px 0px 1050px;
+    position: absolute;
+    
+    
     
    
 }
 
+footer#rodape li {
+    display: inline;
+  
+
+}
 
 footer h1 {
     margin-left: 300px;
     font-size: 15px;
     color: white;
+    position: absolute;
 }
 
+
+footer#rodape a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+   
+}
+
+footer#rodape a:hover{
+    color: rgb(177, 176, 176);
+    transition: 0.2s;
+}
