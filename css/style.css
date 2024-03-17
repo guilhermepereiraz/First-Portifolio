@@ -4,6 +4,14 @@
     src: url(/Donsky.ttf);
 }
 
+/* Medias Querys Celulares*/
+
+@media(max-width: 450px) {
+
+}
+
+
+
 /* Global */
 * {
    padding: 0px;
@@ -15,7 +23,6 @@ nav {
     background-color: #0a0416;
     box-shadow: 3px 3px 5px black;
     font-family: 'donk';
-    max-width: 1920px;
     
 
 }
@@ -73,7 +80,7 @@ p#eu2{
 }
 
 h1#cornome{
-    color: hsla(271, 78%, 65%, 0.847);
+    color: #a860ebd8;
     padding: 10px;
     margin: -230px 90px;
 }
@@ -93,6 +100,93 @@ main img:hover{
     
 }
 
+img#sldskil{
+    background-color: #06020e;
+    width: 180px;
+    margin: 30px 600px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+    border: 3px solid white;
+    position: relative;
+}
+
+img#sldskil:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+  background-color: #1c132e;
+  transition: 0.2s;
+}
+
+img#sldskil1{
+    background-color: #06020e;
+    width: 180px;
+    margin-top:  30px;
+    margin-left: -540px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+    border: 3px solid white;
+    position: absolute;
+}
+
+img#sldskil1:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+    background-color: #1c132e;
+    transition: 0.2s;
+  }
+
+  img#sldskil2{
+    background-color: #06020e;
+    width: 180px;
+    margin-top:  30px;
+    margin-left: -280px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+    border: 3px solid white;
+    position: absolute;
+}
+
+img#sldskil2:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+    background-color: #1c132e;
+    transition: 0.2s;
+  }
+
+  img#sldskil3{
+    background-color: #06020e;
+    width: 180px;
+    margin: 30px 730px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+    border: 3px solid white;
+    position: relative;
+}
+
+img#sldskil3:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+    background-color: #1c132e;
+    transition: 0.2s;
+  }
+
+  img#sldskil4{
+    background-color: #06020e;
+    width: 180px;
+    margin-top:  30px;
+    margin-left: -670px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+    border: 3px solid white;
+    position: absolute;
+}
+
+img#sldskil4:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+    background-color: #1c132e;
+    transition: 0.2s;
+  }
 
 
 
@@ -107,7 +201,7 @@ div#butao1{
     margin: -170px 100px;
     border-radius: 30px;
     font-family: 'donk';
-    box-shadow: 2px 3px 3px hsla(271, 98%, 50%, 0.842);
+    box-shadow: 2px 3px 3px rgba(132, 3, 252, 0.842);
  
 
 }
@@ -151,6 +245,33 @@ p#eu {
     margin-top: -190px;
     text-align: center;
 }
+
+h1#sk {
+    position: absolute;
+    width: 150px;
+    margin: -120px 0px 0px 880px;
+    font-family: 'donk';
+}
+
+h2#sskils{
+
+    width: 300px;
+    margin: 30px 0px 0px 892px;
+    font-family: 'donk';
+    color: rgba(128, 128, 128, 0.644);
+}
+
+h2#sskils1{
+
+    width: 300px;
+    margin: -10px 50px 0px 892px;
+    font-family: 'donk';
+    color: rgba(128, 128, 128, 0.644);
+}
+
+
+
+
 
 /* Imagens */
 
@@ -235,8 +356,6 @@ footer {
 footer#rodape ul {
     margin: 0px -800px 0px 1050px;
     position: absolute;
-    
-    
     
    
 }
