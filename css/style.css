@@ -85,111 +85,6 @@ h1#cornome{
     margin: -230px 90px;
 }
 
-main img {
-   width: 300px; 
-   border-radius: 300px 300px 300px 300px;
-   margin: -520px 1400px;
-   position: absolute;
-   box-shadow: 7px 7px 10px #06020e;
-   
-}
-
-main img:hover{
-    transition: 0.2s;
-    transform:scale(1.2);
-    
-}
-
-img#sldskil{
-    background-color: #06020e;
-    width: 180px;
-    margin: 30px 600px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
-    border: 3px solid white;
-    position: relative;
-}
-
-img#sldskil:hover {
-  transform: scale(1.1);
-  box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
-  background-color: #1c132e;
-  transition: 0.2s;
-}
-
-img#sldskil1{
-    background-color: #06020e;
-    width: 180px;
-    margin-top:  30px;
-    margin-left: -540px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
-    border: 3px solid white;
-    position: absolute;
-}
-
-img#sldskil1:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
-    background-color: #1c132e;
-    transition: 0.2s;
-  }
-
-  img#sldskil2{
-    background-color: #06020e;
-    width: 180px;
-    margin-top:  30px;
-    margin-left: -280px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
-    border: 3px solid white;
-    position: absolute;
-}
-
-img#sldskil2:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
-    background-color: #1c132e;
-    transition: 0.2s;
-  }
-
-  img#sldskil3{
-    background-color: #06020e;
-    width: 180px;
-    margin: 30px 730px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
-    border: 3px solid white;
-    position: relative;
-}
-
-img#sldskil3:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
-    background-color: #1c132e;
-    transition: 0.2s;
-  }
-
-  img#sldskil4{
-    background-color: #06020e;
-    width: 180px;
-    margin-top:  30px;
-    margin-left: -670px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
-    border: 3px solid white;
-    position: absolute;
-}
-
-img#sldskil4:hover {
-    transform: scale(1.1);
-    box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
-    background-color: #1c132e;
-    transition: 0.2s;
-  }
-
-
-
 
 /* Botão */
 
@@ -204,6 +99,14 @@ div#butao1{
     box-shadow: 2px 3px 3px rgba(132, 3, 252, 0.842);
  
 
+}
+
+div#butao1 a{
+    text-decoration: none;
+}
+
+div#butao2 a{
+    text-decoration: none;
 }
 
 div#butao2 {
@@ -252,6 +155,15 @@ h1#sk {
     margin: -120px 0px 0px 880px;
     font-family: 'donk';
 }
+ 
+
+main h1#skts{
+    width: 100px;
+    margin: 450px 0px 0px 830px;
+    position: absolute;
+   
+}
+
 
 h2#sskils{
 
@@ -293,7 +205,110 @@ transform:scale(1.2);
 
 }
 
-
+main img {
+    width: 300px; 
+    border-radius: 300px 300px 300px 300px;
+    margin: -520px 1400px;
+    position: absolute;
+    box-shadow: 7px 7px 10px #06020e;
+    
+ }
+ 
+ main img:hover{
+     transition: 0.2s;
+     transform:scale(1.2);
+     
+ }
+ 
+ img#sldskil{
+     background-color: #06020e;
+     width: 180px;
+     margin: 30px 600px;
+     border-radius: 20px;
+     box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+     border: 3px solid white;
+     position: relative;
+ }
+ 
+ img#sldskil:hover {
+   transform: scale(1.1);
+   box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+   background-color: #1c132e;
+   transition: 0.2s;
+ }
+ 
+ img#sldskil1{
+     background-color: #06020e;
+     width: 180px;
+     margin-top:  30px;
+     margin-left: -540px;
+     border-radius: 20px;
+     box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+     border: 3px solid white;
+     position: absolute;
+ }
+ 
+ img#sldskil1:hover {
+     transform: scale(1.1);
+     box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+     background-color: #1c132e;
+     transition: 0.2s;
+   }
+ 
+   img#sldskil2{
+     background-color: #06020e;
+     width: 180px;
+     margin-top:  30px;
+     margin-left: -280px;
+     border-radius: 20px;
+     box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+     border: 3px solid white;
+     position: absolute;
+ }
+ 
+ img#sldskil2:hover {
+     transform: scale(1.1);
+     box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+     background-color: #1c132e;
+     transition: 0.2s;
+   }
+ 
+   img#sldskil3{
+     background-color: #06020e;
+     width: 180px;
+     margin: 30px 730px;
+     border-radius: 20px;
+     box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+     border: 3px solid white;
+     position: relative;
+ }
+ 
+ img#sldskil3:hover {
+     transform: scale(1.1);
+     box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+     background-color: #1c132e;
+     transition: 0.2s;
+   }
+ 
+   img#sldskil4{
+     background-color: #06020e;
+     width: 180px;
+     margin-top:  30px;
+     margin-left: -670px;
+     border-radius: 20px;
+     box-shadow: 4px 4px 4px hsla(240, 1%, 31%, 0.842);
+     border: 3px solid white;
+     position: absolute;
+ }
+ 
+ img#sldskil4:hover {
+     transform: scale(1.1);
+     box-shadow: 5px 5px 30px hsla(271, 98%, 50%, 0.842);
+     background-color: #1c132e;
+     transition: 0.2s;
+   }
+ 
+ 
 img#iconrd2 {
     width: 30px;
     background:  hsla(271, 78%, 65%, 0.847);
@@ -313,7 +328,7 @@ img#iconrd2:hover {
 
 img#iconrd3 {
     width: 30px;
-    background:  hsla(271, 78%, 65%, 0.847);
+    background:  #a860ebd8;
     position: absolute;
     border-radius: 20px;
     margin-top: -600px;
@@ -332,7 +347,7 @@ img#iconrd4 {
     width: 35px;
     position: absolute;
     border-radius: 50px;
-    margin-top: -1090px;
+    margin-top: -1110px;
     margin-left: 1800px;
     border: 2px solid rgb(253, 253, 253);
 }
@@ -343,6 +358,117 @@ img#iconrd4:hover {
     transform:scale(1.2);
 
 }
+
+img#pj0 {
+    width: 600px;
+    margin: 250px 10px 800px 300px;
+    box-shadow: 5px 5px 7px #565457d8;
+    border: 2px solid black;
+    
+}
+
+img#pj0:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+img#pj1 {
+    width: 600px;
+    margin: 250px 10px 50px 100px;
+    position: absolute;
+    box-shadow: 5px 5px 7px #565457d8;
+    border: 2px solid black;
+    
+}
+
+img#pj1:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+img#pj2 {
+    width: 600px;
+    margin: 600px 10px 50px 100px;
+    position: absolute;
+    box-shadow: 5px 5px 7px #565457d8;
+    border: 2px solid black;
+    
+}
+
+img#pj2:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+img#pj3 {
+    width: 600px;
+    position: absolute;
+    margin: 600px 0px 0px -620px;
+    box-shadow: 5px 5px 7px #565457d8;
+    border: 2px solid black;
+    
+}
+
+img#pj3:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+figure {
+margin: -250px 0px 30px 500px;
+position: absolute;
+
+
+}
+
+figure img {
+    width: 40px;
+    background-color: #06020e;
+    padding: 13px;
+    border-radius: 22px;
+    border: 2px solid hsla(271, 98%, 50%, 0.842);
+    box-shadow: 2px 2px 4px black;
+    margin-bottom: -20px;
+      
+}
+
+figcaption#cp {
+    font-family: 'donk';
+    color: black;
+
+   
+}
+
+figcaption {
+    font-family: 'donk';
+    color: #565457d8;
+}
+
+figure:hover{
+    transition: 0.4s;
+    transform: scale(1.2);
+}
+
+
+figure#fig1 {
+    margin: -250px 0px 30px 800px;
+    position: absolute;
+    
+    
+    }
+
+figure#fig2 {
+        margin: -250px 0px 30px 1100px;
+        position: absolute;
+        
+ }
+    
+figure#fig3 {
+    margin: -250px 0px 30px 1400px;
+    position: absolute;
+    
+}
+
 
 /* Rodape */
 
